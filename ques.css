@@ -1,0 +1,133 @@
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  html{
+    height:100vh;
+    width:100vw;
+    background-image:url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    background-repeat:no-repeat;
+    object-fit:cover;
+    font-family:Kalam;
+}
+@media(max-width:400px) {
+    h3{
+        font-size:1rem;
+    }
+    .btn{
+        font-size:0.8rem;
+    }
+    
+}
+@media(min-width:400px) {
+    h3{
+        font-size:1.5rem;
+    }
+    .btn{
+        font-size:1.5rem;
+    }
+    
+}
+
+
+.quiz-container{
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+    
+    
+}
+.qques{
+    margin:2px;
+    padding:2px;
+    height:70vh;
+    width:50vw;
+    opacity:70%;
+    background-color:white;
+    filter: blur(background-image);
+    border-radius:5px;
+    border:1px solid cadetblue;
+    box-shadow:2rem;
+    
+  
+
+}
+
+h3{
+    text-align:center;
+    
+    height:5rem;
+    padding:2px;
+    font-weight:350;
+
+}
+
+#answer-buttons{
+    display:flex;
+    flex-direction:column;
+   
+
+}
+.btn{
+    padding:2vh;
+    margin:3vh;
+    height:6vh;
+    background-color:aliceblue;
+    border:1px cadetblue;
+  
+    font-family:Kalam;
+    font-weight:300;
+    
+}
+#next{
+    display:none;
+}
+.correct{
+    background:rgba(144, 238, 144, 0.528);
+}
+.incorrect{
+    background:rgba(255, 0, 0, 0.55);
+}
+.btn:hover:not([disabled]){
+   background:cadetblue;
+    color:black;
+
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+#next{
+    height:2rem;
+    background-color:cadetblue;
+    width:10rem;
+     margin:20px auto 0;
+    font-size:1.5rem;
+    font-family:kalam;
+    font-weight:300;
+    cursor:pointer;
+    border:white;
+}
+p{
+    text-align:center;
+    background-color:white;
+    opacity:70%;
+    font-family:kalam;
+    font-size:200%;
+}
